@@ -109,7 +109,7 @@ app.use ("/admin",adminRotes)
 
 // Test route
 app.use("/image", (req, res) => {
-    res.send("GET request to product");
+    res.send("GET request to product updated now!");
 });
 
 // Connect to MongoDB
