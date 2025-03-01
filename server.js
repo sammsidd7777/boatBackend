@@ -81,7 +81,7 @@ const app = express();
 app.use(cookieParser())
 // Middleware
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://samfront.vercel.app",
   credentials: true
 }));
 app.use(express.json()); // To parse JSON bodies
